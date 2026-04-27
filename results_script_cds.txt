@@ -1,0 +1,33 @@
+--- PAML Result Aggregator Started ---
+Processing files in: bp/paml_inputs
+✅ Successfully wrote 49 raw results to results_omega_bp_cds.csv
+Processing files in: out/paml_inputs
+✅ Successfully wrote 839 raw results to results_omega_out_cds.csv
+
+Raw total genes: Inside=49, Outside=839
+
+--- Data Filtering Summary ---
+Initial Total Gene Count: 888
+Filter used: 0.005 ≤ dS ≤ 3 AND 0 ≤ dN ≤ 3
+Final Filtered Genes Inside: 15
+Final Filtered Genes Outside: 84
+
+--- Descriptive Statistics (Median, IQR) ---
+Metric: omega
+  Inside Inversion (N=15): Median = 0.4676, IQR = [0.1994 - 0.8018]
+  Outside Inversion (N=84): Median = 0.1573, IQR = [0.0001 - 0.4143]
+Metric: dN
+  Inside Inversion (N=15): Median = 0.0144, IQR = [0.0057 - 0.0174]
+  Outside Inversion (N=84): Median = 0.0047, IQR = [0.0000 - 0.0238]
+Metric: dS
+  Inside Inversion (N=15): Median = 0.0313, IQR = [0.0187 - 0.0521]
+  Outside Inversion (N=84): Median = 0.0241, IQR = [0.0128 - 0.1237]
+
+--- Mann-Whitney U Test Results ---
+Metric: omega | Two-Sided P-value: 0.03573
+Metric: omega | One-Sided P-value (Inside < Outside - Stronger Purifying): 0.98257
+Metric: omega | One-Sided P-value (Inside > Outside - Stronger Positive/Relaxed): 0.01786
+Metric: dN | Two-Sided P-value: 0.30894
+Metric: dS | Two-Sided P-value: 0.86823
+
+✅ Analysis complete. Distribution plot saved to omega_distributions_cds.pdf
