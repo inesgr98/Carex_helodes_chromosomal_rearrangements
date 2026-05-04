@@ -18,6 +18,6 @@ To run these scripts, you will need :
 #### Usage
 These scripts are designed to be executed on **R**. Each R script is for independent analysis. However I recommend running window_characterization.R or enrichment_analysis.R as they both include the part where the table is generated. 
 - `window_analisis.R`: Performs Generalized Linear Models.
-- 'enrichment_analysis.R'. Performs permutation enrichment tests. 
-- 'violin_graph.R' Creates the violin graphs. These graph was futher edited with InkScape for the article.
-- 'genome_features_1JMC18.R' and 'genome_features_4JMC19C.R' performs supplementary figures S2 and S3 representing egnomic features along chromosomes (all and only rearranged chromosomes.
+- `enrichment_analysis.R`. Performs permutation enrichment tests. 
+- `violin_graph.R` Creates the violin graphs. These graph was futher edited with InkScape for the article.
+- `genome_features_1JMC18.R` and `genome_features_4JMC19C.R` performs supplementary figures S2 and S3 representing egnomic features along chromosomes (all and only rearranged chromosomes.
