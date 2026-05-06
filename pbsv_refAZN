@@ -1,0 +1,27 @@
+#!/usr/bin/bash
+#SBATCH --job-name=pbsv_align_ref_AZN
+#SBATCH --output=pbsv_ref_AZN_align_output
+#SBATCH --error=pbsv_ref_AZN_align_error
+#SBATCH --partition=standard
+#SBATCH --nodes=1                  
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=64G
+#SBATCH --time=24:00:00 
+
+
+## Define variables
+hifi=/home/igomez/genome_assembly_helodes_thesis/raw_data/PacBio/4JMC19C.fastq
+REF=/home/igomez/genome_assembly_helodes_thesis/C0_clean_assemblies/1JMC18.fasta
+
+
+#Run NanoPlot
+## Load and activate the necessary conda environment
+source ~/anaconda3/etc/profile.d/conda.sh
+
+conda activate pacbio_tools
+pbmm2 align $REF $hifi ref.movie.refAZN.bam --sort --preset CCS --sample refAZN --rg '@RG\tID:movie1'
+echo "pbmm2 AZN align done"
+pbsv discover ref.movie.refAZN.bam ref.refAZN.svsig.gz
+echo "pbsv AZN align done"
+
+conda deactivate
