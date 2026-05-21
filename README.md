@@ -26,4 +26,4 @@ The workflow is divided into three main stages:
 2. **Comparison:** - Once both analyses are complete, run the final Python script (e.g., `compare_results.py`) to merge and compare the data from both areas.
 
 3. **Results:**
-   - The output from the comparison script was used to construct **Table 2** and **Table S2** of the article
+   - The output from the comparison script and the regioner.R script was used to create **Table 2** of the article
