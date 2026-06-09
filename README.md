@@ -1,4 +1,4 @@
-# Genome Characterization & Breakpoint Enrichment Analysis
+# Breakpoint Enrichment Analysis
 
 This repository contains R scripts for analyzing and comparing genomic features (gene density, GC content, repeat elements) between conserved (collinear) and rearranged genomic regions, alongside breakpoint enrichment analysis.
 
