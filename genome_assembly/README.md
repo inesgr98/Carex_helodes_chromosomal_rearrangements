@@ -107,13 +107,3 @@ To minimize the fraction of unclassified elements, a customized plant repetitive
 * **`pbsv_refAZN`** triggers structural call parameters (`discover` and `call`) using long split-reads.
 * **`bed_extract_reords.sbatch`** inspects structural breakends (BNDs) within a window of ± 5000 bp to provide confirmation statistics (e.g., confirming the heterozygous inversion in `chr32` for MON where 76 out of 130 split-reads support the variant).
 
----
-
-## 🎓 Citation & Contact
-
-If you use these configurations or workflows in your research, please cite:
-
-```text
-[Insert Your Full Publication Citation Details Here Once Published]
-
-```
