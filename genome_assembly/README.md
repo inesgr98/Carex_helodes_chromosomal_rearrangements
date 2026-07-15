@@ -13,7 +13,6 @@ This repository contains the complete suite of SLURM (`.sbatch`) and R scripts u
    - [Phase C: De Novo Repeat Discovery & Masking](#phase-c-de-novo-repeat-discovery--masking)
    - [Phase D: Synteny & Structural Variant Validation](#phase-d-synteny--structural-variant-validation)
 
-
 ---
 
 ## 🧬 Workflow Overview
@@ -107,3 +106,10 @@ To minimize the fraction of unclassified elements, a customized plant repetitive
 * **`pbsv_refAZN`** triggers structural call parameters (`discover` and `call`) using long split-reads.
 * **`bed_extract_reords.sbatch`** inspects structural breakends (BNDs) within a window of ± 5000 bp to provide confirmation statistics (e.g., confirming the heterozygous inversion in `chr32` for MON where 76 out of 130 split-reads support the variant).
 
+---
+
+
+
+```
+
+```
