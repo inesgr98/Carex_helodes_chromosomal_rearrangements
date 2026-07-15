@@ -12,7 +12,7 @@ This repository contains the complete suite of SLURM (`.sbatch`) and R scripts u
    - [Phase B: Hi-C Scaffolding & Cross-Mapping](#phase-b-hi-c-scaffolding--cross-mapping)
    - [Phase C: De Novo Repeat Discovery & Masking](#phase-c-de-novo-repeat-discovery--masking)
    - [Phase D: Synteny & Structural Variant Validation](#phase-d-synteny--structural-variant-validation)
-5. [Citation & Contact](#-citation--contact)
+
 
 ---
 
